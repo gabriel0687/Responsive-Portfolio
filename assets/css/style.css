@@ -217,22 +217,71 @@ body {
   }
 
   @media screen and (max-width: 980px) {
-    #container{
-      width: 980px;
-    }
+  body{
+    margin-left: 20%;
+    margin-right: 20%;
   }
+  .container{
+    width: auto;
+  }
+  #masthead{
+    width: auto;
+  }
+  #logo{
+    width: auto;
+  }
+  nav{
+    width: 70%;
+  }
+  #main-section{
+    width: 60%;
+  }
+  #contact-form{
+    float: center;
+  }
+
+  }
+
   @media screen and (max-width:768px){
-    #container{
-      width: 768px;
-    }
+  body{
+    margin-left: 30;
+    margin-right: 30;
+  }
+  .container{
+  width: auto;
+  }
+  #main-section{
+    width: 30%;
+  }
+  #masthead{
+    width: auto;
+  }
+  nav{
+    width: 40%;
+  }
+  #logo{
+    width: auto;
+  }
+  
   }
   
   @media screen and (max-width: 640px){
-    #container{
-      width: 640px;
-    }  
-     header{
-       position: static;
-     }
+  body{
+    margin-left: 50;
+    margin-right: 50;
+  }
+    #masthead{
+      width: auto;
+    }
+    nav{
+      width: 25%;
+    }
+    #logo{
+      width: auto;
+    }
+    .container{
+      width: auto;
+    }
+    
     }
   
